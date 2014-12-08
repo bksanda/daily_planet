@@ -1,0 +1,17 @@
+<% include ../header %>
+
+<h1><%= pageTitle %> </h1>
+
+<%= msg %>
+
+<% for(var i=0 ; i < thisIsMyLocalGroupOfArticles.length ; i++) { %>
+  <li>
+    <a href="articles/<%= i %>">
+    <%= thisIsMyLocalGroupOfArticles[i].title %></a>
+    <blockquote>
+      <%= thisIsMyLocalGroupOfArticles[i].article %>
+    </blockquote>
+  </li>
+<% } %>
+
+<% include ../footer %>
