@@ -1,3 +1,7 @@
+###2014-2015, WDI COURSE ASSIGNMENT
+#### Intro to Express -- this exercise touches only on Create and Read of CRUD.
+***
+
 # Making Headlines
 ## Intro to Express
 
@@ -29,7 +33,7 @@ You'll need the following `article` routes:
 
 ## Structure
 
-All your article related views should be in an `views/articles` folder. Each article should utilize `ejs` to render the page. Your `site` related views `index`, `about`, and `contact` can also have a folder `views/site` you just need to `res.render('site/about')`. 
+All your article related views should be in an `views/articles` folder. Each article should utilize `ejs` to render the page. Your `site` related views `index`, `about`, and `contact` can also have a folder `views/site` you just need to `res.render('site/about')`.
 
 
 ## Bonus
